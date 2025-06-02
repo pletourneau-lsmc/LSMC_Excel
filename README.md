@@ -1,5 +1,7 @@
-# LSMC_Excel
-This project showcases the Longstaff and Schwartz (2001) small numerical example in Excel
+# SUPER Least squares Monte Carlo
+How to price options efficiently for (almost) any dynamics model!
+
+
 
 # References
 
