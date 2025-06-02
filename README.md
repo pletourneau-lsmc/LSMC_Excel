@@ -1,7 +1,9 @@
 # SUPER Least squares Monte Carlo
 How to price options efficiently for (almost) any dynamics model!
 
-.
+
+# Longstaff and Schwartz (2001) Small Numerical Example
+
 
 # References
 
