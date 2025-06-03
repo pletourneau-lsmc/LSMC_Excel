@@ -4,10 +4,10 @@
 Financial options and contingent claims in general are complex to price when model parameters are known. 
 Finding those model parameters can be an insurmontable challenge. 
 Up until now!
-Over the years, we have developed a methodology that allows calibrating a dynamics model on a sample of option prices in n instant.
+Over the years, we have developed a methodology that allows calibrating a dynamics model on a sample of option prices in an instant.
 
 Our objective here is to make this as accessible as possible.
-We will cover all the basics, from the theory of contingent claims pricing, all the way to how to use our method to calibrate the most complex model on all options traded on the CBOE.
+We will cover all the basics, from the theory of contingent claims pricing, all the way to how to use our method to calibrate the most complex dynamics model on all options traded on the CBOE.
 
 Here is the plan:
 # The Least-Square Monte Carlo Method: A Comprehensive Guide
