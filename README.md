@@ -53,7 +53,7 @@ Here is the plan:
 - Bootstrapping
 - ISD and Greeks
 - ISD and model parameters
-- Gygantic calibration setup
+- Gigantic calibration setup
 - How to use our output
 
 ## ⏳How to use our product
