@@ -9,6 +9,8 @@ Over the years, we have developed a methodology that allows calibrating a dynami
 Our objective here is to make this as accessible as possible.
 We will cover all the basics, from the theory of contingent claims pricing, all the way to how to use our method to calibrate the most complex dynamics model on all options traded on the CBOE.
 
+Jump to [how to use our product]
+
 Here is the plan:
 <!--# The Least-Square Monte Carlo Method: A Comprehensive Guide -->
 
@@ -40,12 +42,21 @@ Here is the plan:
 
 ### Challenges in Simulation-Based Pricing
 - Issues in Pricing  
-- Issues in Model Calibration  
+- Issues in Model Calibration
+- General computer limit issues
+
 
 ### Advanced Concepts in Least-Square Monte Carlo
-- Initial State Dispersion  
+- Initial State Dispersion (ISD)
 - Homogeneity and Multi-Strike Pricing  
-- Markov Property and Multi-Maturity Pricing  
+- Markov Property and Multi-Maturity Pricing
+- Bootstrapping
+- ISD and Greeks
+- ISD and model parameters
+- Gygantic calibration setup
+- How to use our output
+
+## How to use our product
 
 
 
