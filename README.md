@@ -1,5 +1,5 @@
 # SUPER Least squares Monte Carlo
-##How to price options efficiently for (almost) any dynamics model!
+## How to price options efficiently for (almost) any dynamics model!
 
 Financial options and contingent claims in general are complex to price when model parameters are known. 
 Finding those model parameters can be an insurmontable challenge. 
