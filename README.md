@@ -14,39 +14,39 @@ Jump to [how to use our product]
 Here is the plan:
 <!--# The Least-Square Monte Carlo Method: A Comprehensive Guide -->
 
-## Foundations of Contingent Claim Pricing
-### Risk-Neutral Pricing
+## ⏳Foundations of Contingent Claim Pricing
+### ⏳Risk-Neutral Pricing
 - Intuitive Introduction to Risk-Neutral Pricing  
 - Common Academic Assumptions and Their Realism  
 
-### Stochastic Dominance in Pricing
+### ⏳Stochastic Dominance in Pricing
 - A Closed-Form Example  
 - A Simulation-Based Example  
 
-### Early-Exercise Contingent Claims
+### ⏳Early-Exercise Contingent Claims
 - The General Problem  
 - Approaches to Determining the Exercise Boundary  
 
-## Overview of Option Pricing Methods
-### Traditional Pricing Approaches
+## ⏳Overview of Option Pricing Methods
+### ⏳Traditional Pricing Approaches
 - A Survey of Common Methods  
 - Limitations of Traditional Methods  
 
-### Simulation-Based Approaches
+### ⏳Simulation-Based Approaches
 - Flexibility of Simulation in Option Pricing  
 - Computational Challenges in Simulation  
 
 ## The Least-Square Monte Carlo Method
 ### Introduction and Numerical Example
-- A Basic Numerical Illustration  
+- ⚠️ A Basic Numerical Illustration  
 
-### Challenges in Simulation-Based Pricing
+### ⏳Challenges in Simulation-Based Pricing
 - Issues in Pricing  
 - Issues in Model Calibration
 - General computer limit issues
 
 
-### Advanced Concepts in Least-Square Monte Carlo
+### ⏳Advanced Concepts in Least-Square Monte Carlo
 - Initial State Dispersion (ISD)
 - Homogeneity and Multi-Strike Pricing  
 - Markov Property and Multi-Maturity Pricing
@@ -56,7 +56,7 @@ Here is the plan:
 - Gygantic calibration setup
 - How to use our output
 
-## How to use our product
+## ⏳How to use our product
 
 
 
