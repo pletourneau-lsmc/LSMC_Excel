@@ -10,7 +10,7 @@ Our objective here is to make this as accessible as possible.
 We will cover all the basics, from the theory of contingent claims pricing, all the way to how to use our method to calibrate the most complex dynamics model on all options traded on the CBOE.
 
 Here is the plan:
-# The Least-Square Monte Carlo Method: A Comprehensive Guide
+<!--# The Least-Square Monte Carlo Method: A Comprehensive Guide -->
 
 ## Foundations of Contingent Claim Pricing
 ### Risk-Neutral Pricing
