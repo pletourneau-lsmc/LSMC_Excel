@@ -38,7 +38,7 @@ Here is the plan:
 
 ## The Least-Square Monte Carlo Method
 ### Introduction and Numerical Example
-- ⚠️ A Small Example  
+- ⚠️ [A Small Example](https://github.com/pletourneau-lsmc/SUPER_LSMC/tree/main/LSMC/Small_Example)  
 
 ### ⏳Challenges in Simulation-Based Pricing
 - Issues in Pricing  
