@@ -41,7 +41,7 @@ Here is the plan:
 - Computational Challenges in Simulation  
 
 ## 3- The Least-Square Monte Carlo Method (LSMC)
-- ⚠️ [Small Numerical Examples](https://github.com/pletourneau-lsmc/SUPER_LSMC/tree/main/3-%20LSMC/Small_Example)  
+- ⚠️ [3.1 Original Small Numerical Examples](https://github.com/pletourneau-lsmc/SUPER_LSMC/tree/main/3-%20LSMC/3.1-%20Original)  
 
 ### ⏳Challenges in Simulation-Based Pricing
 - Issues in Pricing  
