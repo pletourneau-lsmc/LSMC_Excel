@@ -6,6 +6,10 @@ Finding those model parameters can be an insurmontable challenge.
 Up until now!
 Over the years, we have developed a methodology that allows calibrating a dynamics model on a sample of option prices in an instant.
 
+Among the different methods allowing for pricing contingent claims with early exercise, the least square Monte Carlo (LSMC) method is the most flexible. 
+The original method is not the most efficient, though. 
+Our extensions that we developed through the years does make the LSMC method very competitive. We call it the SUPER-LSMC.
+
 Our objective here is to make this as accessible as possible.
 We will cover all the basics, from the theory of contingent claims pricing, all the way to how to use our method to calibrate the most complex dynamics model on all options traded on the CBOE.
 
@@ -37,7 +41,7 @@ Here is the plan:
 - Computational Challenges in Simulation  
 
 ## 3- The Least-Square Monte Carlo Method (LSMC)
-- ⚠️ [Small Numerical Examples](https://github.com/pletourneau-lsmc/SUPER_LSMC/tree/main/LSMC/Small_Example)  
+- ⚠️ [Small Numerical Examples](https://github.com/pletourneau-lsmc/SUPER_LSMC/tree/main/3-%20LSMC/Small_Example)  
 
 ### ⏳Challenges in Simulation-Based Pricing
 - Issues in Pricing  
