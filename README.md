@@ -14,7 +14,7 @@ Jump to [how to use our product]
 Here is the plan:
 <!--# The Least-Square Monte Carlo Method: A Comprehensive Guide -->
 
-## ⏳Foundations of Contingent Claim Pricing
+## ⏳1- Foundations of Contingent Claim Pricing
 ### ⏳Risk-Neutral Pricing
 - Intuitive Introduction to Risk-Neutral Pricing  
 - Common Academic Assumptions and Their Realism  
@@ -27,7 +27,7 @@ Here is the plan:
 - The General Problem  
 - Approaches to Determining the Exercise Boundary  
 
-## ⏳Overview of Option Pricing Methods
+## ⏳2- Overview of Option Pricing Methods
 ### ⏳Traditional Pricing Approaches
 - A Survey of Common Methods  
 - Limitations of Traditional Methods  
@@ -36,9 +36,8 @@ Here is the plan:
 - Flexibility of Simulation in Option Pricing  
 - Computational Challenges in Simulation  
 
-## The Least-Square Monte Carlo Method
-### Introduction and Numerical Example
-- ⚠️ [A Small Example](https://github.com/pletourneau-lsmc/SUPER_LSMC/tree/main/LSMC/Small_Example)  
+## 3- The Least-Square Monte Carlo Method (LSMC)
+- ⚠️ [Small Numerical Examples](https://github.com/pletourneau-lsmc/SUPER_LSMC/tree/main/LSMC/Small_Example)  
 
 ### ⏳Challenges in Simulation-Based Pricing
 - Issues in Pricing  
@@ -46,7 +45,13 @@ Here is the plan:
 - General computer limit issues
 
 
-### ⏳Advanced Concepts in Least-Square Monte Carlo
+## ⏳4- Super LSMC
+### ⏳Challenges in Simulation-Based Pricing
+- Issues in Pricing  
+- Issues in Model Calibration
+- General computer limit issues
+
+### ⏳Multiple useful extensions, leading to Super-LSMC
 - Initial State Dispersion (ISD)
 - Homogeneity and Multi-Strike Pricing  
 - Markov Property and Multi-Maturity Pricing
