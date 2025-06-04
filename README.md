@@ -38,7 +38,7 @@ Here is the plan:
 
 ## The Least-Square Monte Carlo Method
 ### Introduction and Numerical Example
-- ⚠️ A Basic Numerical Illustration  
+- ⚠️ A Small Example  
 
 ### ⏳Challenges in Simulation-Based Pricing
 - Issues in Pricing  
