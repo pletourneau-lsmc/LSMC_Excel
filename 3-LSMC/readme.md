@@ -17,7 +17,7 @@ If you want to run this notebook **without installing Python or Jupyter**, you c
 
 ## 🚀 Option 1: Use Google Colab's GitHub Integration
 
-1. Go to [Google Colab](https://colab.research.google.com){:target="_blank"}.
+1. Right-click [Google Colab](https://colab.research.google.com) and open in a new tab.
 2. Click **File → Open Notebook**.
 3. Select the **GitHub** tab.
 4. Search for **pletourneau-lsmc**.
