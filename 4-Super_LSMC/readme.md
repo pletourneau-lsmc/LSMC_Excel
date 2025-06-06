@@ -18,8 +18,13 @@ See Rasmussen (2005)
 
 In the extended example we get a rather poor exercise bondary
 
-![Exercise Boundary withouht an ISD](3.2.1_exercise_boundary.png)
-![Exercise Boundary with an ISD](4.1.1_exercise_boundary.png)
+**Comparison of Exercise Boundaries**
+
+![Exercise Boundary without an ISD](3.2.1_exercise_boundary.png)  
+**Figure 1:** Exercise boundary without Initial State Dispersion (ISD)
+
+![Exercise Boundary with an ISD](4.1.1_exercise_boundary.png)  
+**Figure 1:** Exercise boundary with Initial State Dispersion (ISD)
 
 
 ### Reference
