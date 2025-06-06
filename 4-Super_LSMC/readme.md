@@ -12,7 +12,20 @@ It's a disaster!
 But we solve all of this for you!
 
 ## 4.1- Initial State Dispersion (ISD)
-We can improve the estimation of optimal stopping time.
+We can improve the estimation of optimal stopping time. The idea is simple, we disperse the initial values of $$S$$.
+
+See Rasmussen (2005)
+
+In the extended example we get a rather poor exercise bondary
+
+![Exercise Boundary withouht an ISD](..\3-LSMC\3.2.1_exercise_boundary.png)
+![Exercise Boundary with an ISD](4.1.1_exercise_boundary.png)
+
+
+### Reference
+Rasmussen, N. S. (2005). Control variates for Monte Carlo valuation of American options. Journal of Computational Finance.
+
+
 
 
 ## 4.2- ISD and Homogeneity and Multi-Strike Pricing
