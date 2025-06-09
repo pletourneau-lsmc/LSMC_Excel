@@ -77,7 +77,7 @@ Standing on the shoulders of a giant, we added our contribution and made the LSM
 
 ### ⚠️4.1- Initial State Dispersion (ISD)
 ### ⚠️4.2- Repeating the LSMC for statistics  
-### ⏳4.3- Bootstrapping
+### ⚠️4.3- Bootstrapping
 ### ⏳4.4- Markov Property and Multi-Maturity Pricing
 ### ⏳4.5- ISD and Greeks
 ### ⏳4.6- ISD and model parameters
