@@ -14,6 +14,9 @@ Our objective here is to make this as accessible as possible.
 We will cover all the basics, from the theory of contingent claims pricing, all the way to how to use our method to calibrate the most complex dynamics model on all options traded on the CBOE.
 
 Jump to [how to use our product]
+**Legend**
+⏳: Futur project
+⚠️: Under construction
 
 Here is the plan:
 <!--# The Least-Square Monte Carlo Method: A Comprehensive Guide -->
@@ -61,20 +64,22 @@ Our very efficient method is based on the least square Monte Carlo (LSMC) method
 
 
 ## ⏳4- Super LSMC
-### ⏳Challenges in Simulation-Based Pricing
+LSMC is flexible, but when applied in practice, LSMC can be pretty darn slow.
+Over the years, several have published papers on improving the LSMC method.
+Standing on the shoulders of a giant, we added our contribution and made the LSMC method extremly efficient, even with a complex dynamics model. In this section, we cover each little extention to the LSMC method through small numerical example easy to follow, all building on the small and extended examples of the previous section.
+<!-- ### ⏳Challenges in Simulation-Based Pricing
 - Issues in Pricing  
 - Issues in Model Calibration
-- General computer limit issues
+- General computer limit issues -->
 
-### ⏳Multiple useful extensions, leading to Super-LSMC
-- Initial State Dispersion (ISD)
-- Homogeneity and Multi-Strike Pricing  
-- Markov Property and Multi-Maturity Pricing
-- Bootstrapping
-- ISD and Greeks
-- ISD and model parameters
-- Gigantic calibration setup
-- How to use our output
+### ⚠️4.1- Initial State Dispersion (ISD)
+### ⚠️4.2- Repeating the LSMC for statistics  
+### ⏳4.3- Bootstrapping
+### ⏳4.4- Markov Property and Multi-Maturity Pricing
+### ⏳4.5- ISD and Greeks
+### ⏳4.6- ISD and model parameters
+### ⏳4.7- Gigantic calibration setup
+### ⏳4.8- How to use our output
 
 ## ⏳How to use our product
 
