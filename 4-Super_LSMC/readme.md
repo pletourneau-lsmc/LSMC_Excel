@@ -69,7 +69,7 @@ Here, we probably need to increase the number of simulated paths.
 However, suppose that we are getting close the memory limit and can't increase the number of paths.
 This may seems unlikely to you because we have only cover a basic case with a single state variable which is the stock price. However, we will cover much more complex situations with many state variables, and we will hit the memory limit eventually.
 
-In the next section, we will cover a method that provides a work around.
+In a later section, we will cover a method that provides a work around.
 
 
 ### References
@@ -83,7 +83,23 @@ Rasmussen, N. S. (2005). Control variates for Monte Carlo valuation of American 
 
 
 
-## 4.2- Bootstrapping
+## 4.2- Repeats
+Back on the Extended Example, one issue with the estimate is that we do not know how good that estimate is.
+
+- In theory, we know the price will converge to the true price and the number of paths and polynomial order are increased.
+- In practice, we know the price will converge to a biased price as we increase the number of paths because we use a limited polynomial order.
+- Right now, with only one price estimate, we do not know how good it is.
+
+The solution is to repeat the simulation multiple times. Because all repetitions are independent, the distribution of estimates follows a normal distribution and we can then get a confidence interval.
+
+
+
+
+
+## 4.3- Markov Property and Multi-Maturity Pricing
+
+
+## 4.4- Bootstrapping
 
 Instead of increasing the number of paths, we we repeat the simulation experiment, and then take the average.
 The bootstrapping procedure is straightforward: simulate \(N\) paths, estimate the cross-sectional regression at \(T-1\) and record the resulting \(\beta\) coefficients. Repeat this process multiple times, each time with new simulated paths, and then compute the average \(\bar{\beta}\) across all repetitions.
@@ -99,12 +115,6 @@ Now, there is some inneficiency here. Because, if you hit the memory limit, this
 
 ### References
 Létourneau, P., & Stentoft, L. (2019). Bootstrapping the early exercise boundary in the least-squares monte carlo method. Journal of Risk and Financial Management, 12(4), 190.
-
-
-## 4.3- Markov Property and Multi-Maturity Pricing
-
-
-## 4.4- Bootstrapping
 
 
 ## 4.5- ISD and Greeks

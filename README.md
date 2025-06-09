@@ -19,17 +19,21 @@ Here is the plan:
 <!--# The Least-Square Monte Carlo Method: A Comprehensive Guide -->
 
 ## ⏳1- Foundations of Contingent Claim Pricing
-### ⏳Risk-Neutral Pricing
+For those who want an introduction to option pricing in general, we cover **risk-neutral** pricing approach, used by the vast majority of option pricing methods. Risk-neutral pricing typically provides one price estimate for an option.
+For completeness, we also cover **stochastic dominance**. Stochastic dominance can provide upper and lower bounds on price estimates.
+
+### ⏳1.1- Risk-Neutral Pricing
 - Intuitive Introduction to Risk-Neutral Pricing  
 - Common Academic Assumptions and Their Realism  
 
-### ⏳Stochastic Dominance in Pricing
+### ⏳1.2- Stochastic Dominance in Pricing
 - A Closed-Form Example  
 - A Simulation-Based Example  
 
-### ⏳Early-Exercise Contingent Claims
+### ⏳1.3- Early-Exercise Contingent Claims
 - The General Problem  
 - Approaches to Determining the Exercise Boundary  
+
 
 ## ⏳2- Overview of Option Pricing Methods
 ### ⏳Traditional Pricing Approaches
