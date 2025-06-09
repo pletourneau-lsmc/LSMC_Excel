@@ -63,7 +63,7 @@ Our recommendation is to use an ISD, as many simulations as possible considering
 Let us explore how a wider ISD and polynomial of order \(9)\ might affect the approximation of the optimal exercise boundary.
 
 ![Exercise Boundary with an ISD](4.1.2_exercise_boundary.png)  
-**Figure 2:** Exercise boundary with larger ISD and polynomial of order 9
+**Figure 3:** Exercise boundary with larger ISD and polynomial of order 9
 
 Here, we probably need to increase the number of simulated paths. 
 However, suppose that we are getting close the memory limit and can't increase the number of paths.
@@ -98,6 +98,10 @@ The solution is to repeat the simulation multiple times. Because all repetitions
 ## 4.3- Bootstrapping
 The concept of using the average over multiple repeats to improve the price estimate can also be applied to the approximation of the optimal exercise boundary.
 We present our algorithm in a simple example and show how to improve the exercise boundary
+
+![Exercise Boundary with an ISD](4.3.1_exercise_boundary.png)  
+**Figure 4:** Exercise boundary with larger ISD, polynomial of order 9, and bootstrapping with 50 repeats
+
 
 ### References
 Létourneau, P., & Stentoft, L. (2019). Bootstrapping the early exercise boundary in the least-squares monte carlo method. Journal of Risk and Financial Management, 12(4), 190.

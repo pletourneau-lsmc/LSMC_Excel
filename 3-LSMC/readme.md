@@ -12,7 +12,7 @@ Here, we will price a 1-year put with monthly exercise using 20 paths.
 
 
 # Running Notebooks in Google Colab
-
+Click here: [for instructions on how to run those in Google Collab](../running_python_collab.md)
 If you want to run this notebook **without installing Python or Jupyter**, you can use **Google Colab**—a free, browser-based platform.
 
 ## 🚀 Option 1: Use Google Colab's GitHub Integration
