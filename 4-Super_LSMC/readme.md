@@ -95,26 +95,15 @@ The solution is to repeat the simulation multiple times. Because all repetitions
 
 
 
-
-## 4.3- Markov Property and Multi-Maturity Pricing
-
-
-## 4.4- Bootstrapping
-
-Instead of increasing the number of paths, we we repeat the simulation experiment, and then take the average.
-The bootstrapping procedure is straightforward: simulate \(N\) paths, estimate the cross-sectional regression at \(T-1\) and record the resulting \(\beta\) coefficients. Repeat this process multiple times, each time with new simulated paths, and then compute the average \(\bar{\beta}\) across all repetitions.
-
-We introduce \(R)\, the number of repeats used.
-
-Now, there is some inneficiency here. Because, if you hit the memory limit, this means you cannot keep the simulated paths. For the regression at \(T-1)\, you end up simulating all the previous time steps multiple times and it is not efficient in a computing time sense. **We have a solution for this, but we will reveal it later**
-
-
-### Technicallities
-- For each repeat, we need to simulate the same paths multiple times.
-
+## 4.3- Bootstrapping
+The concept of using the average over multiple repeats to improve the price estimate can also be applied to the approximation of the optimal exercise boundary.
+We present our algorithm in a simple example and show how to improve the exercise boundary
 
 ### References
 Létourneau, P., & Stentoft, L. (2019). Bootstrapping the early exercise boundary in the least-squares monte carlo method. Journal of Risk and Financial Management, 12(4), 190.
+
+
+## 4.4- 
 
 
 ## 4.5- ISD and Greeks

@@ -21,7 +21,13 @@ Jump to [how to use our product]
 
 ⚠️: Under construction
 
-Here is the plan:
+
+## Python examples
+We provide multiple simple examples in python using a Jupiter Notebook.
+Click here: [for instructions on how to run those in Google Collab](running_python_collab.md)
+
+
+# Here is the plan:
 <!--# The Least-Square Monte Carlo Method: A Comprehensive Guide -->
 
 ## ⏳1- Foundations of Contingent Claim Pricing
