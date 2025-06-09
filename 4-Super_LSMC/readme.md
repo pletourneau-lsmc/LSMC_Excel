@@ -107,7 +107,11 @@ We present our algorithm in a simple example and show how to improve the exercis
 Létourneau, P., & Stentoft, L. (2019). Bootstrapping the early exercise boundary in the least-squares monte carlo method. Journal of Risk and Financial Management, 12(4), 190.
 
 
-## 4.4- 
+## 4.4- Saving optimal stopping time betas and re-using them
+In a simple implementation of the LSMC, all parts of the algorithm are ran in sequence.
+However, there are situations where running by parts and saving the data between intermediate steps, might be useful.
+In this example, we will improve the estimation of the optimal stopping time using bootstrapping, and then we will use a simulation without an ISD to price the option from the extended model.
+
 
 
 ## 4.5- ISD and Greeks
