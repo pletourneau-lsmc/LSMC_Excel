@@ -1,5 +1,5 @@
 # Contingent Claim Pricing
-For those who want an introduction to option pricing in general, we cover **risk-neutral** pricing approach, used by the vast majority of option pricing methods. Risk-neutral pricing typically provides one price estimate for an option.
+For those who want an introduction to option pricing in general, we cover the **risk-neutral** pricing approach, used by the vast majority of option pricing methods. Risk-neutral pricing typically provides one price estimate for an option.
 For completeness, we also cover **stochastic dominance**. Stochastic dominance can provide upper and lower bounds on price estimates. We conclude this section by describing the extra complexity from allowing early exercise.
 
 The objective here is not to provide a mathematically and theoretically rigourous exposé, but rather to give an intuitive explanation.
@@ -18,8 +18,8 @@ How do we find the fair forward price? We need to make several assumptions. Firs
 So, what is the fair forward price? It is simply the price of the asset today, plus the cost of borrowing until the maturity of the contract. This is what leads to the Cost-of-Carry method. The cost of bowwing money to buy the underlying asset and **carry** it until maturity. -->
 
 We will use two different portoflios.
-Portfolio \#1 you buy the underlying for $S(0)$, and enter the forward contract as the seller with forward price $F(0,T)$.
-At $t=0$, the cash flow is $-S(0)$, and because we entered the forward contract, the cash flow at $t=T$ is $+F(0,T)$, no matter what the price of the underlying will be at $t=T$. And, this is without risk since the value $F(0,T)$ is pre-determined.
+Portfolio \#1: buy the underlying for $S(0)$, and enter the forward contract as the seller with forward price $F(0,T)$.
+At $t=0$, the cash flow is $-S(0)$, and because we entered the forward contract, the cash flow at $t=T$ is $+F(0,T)$, no matter what the price of the underlying will be at $t=T$. And, this is without risk since the value $F(0,T)$ is pre-determined. Well, that is what we are determining right now. 
 
 Portfolio \#2 you lend $S(0)$ at the risk-free rate. At $t=0$, the cash-flow is $-S(0)$. At maturity, the cash flow will be $S(0) \times (1+r_f)$. And, this is without risk since it is the risk-free rate.
 
@@ -31,3 +31,15 @@ This is an example of a **replicating portfolio** as cash flows of portfolio \#2
 
 
 ### 1.1.2-Pricing_a_call_option
+The call option gives the buyer the right, but not the obligation, to buy the underlying at the strike price $K$. For simplicity, let's stick with a European option. This means the buyer of the call can only buy the underlying asset at maturity. The buyer does not negotiate the strike, but choses it. The buyer does not have to buy the underlying. For these reasons, the buyer of the call will end up paying a premium to the seller of the call.
+
+So, what should be this premium? We will apply the previous approach "as is", even though, it won't work. 
+
+Portfolio \#1: buy the underlying asset $S(0)$ and sell the call contract for $c(0)$. The cash flow at $t=0$ is $-S(0)+c(0)$. The cash flow at maturity will be... well, it depends on whether $S(T)>K$ or not. On top of it, the payoff of the option depends on the difference between $S(0)$ and $K$. Thus, "as is", the approach won't work.
+
+*Solution*, we need to make am assumption on the dynamics of the underlying asset. 
+
+One basic assumption we can make is that the underlying may only take two prices at maturity, a binomial model with only one time step. We thus assume that, at maturity, $S(T) = Su or Sd$. In other words, the price either went up to $Su$ or went down to $Sd$. Let's skip the reasons why, for now, but $Su > S(0) \times (1+rf)$, and $SD < S(0) \times (1+rf)$.
+
+
+
